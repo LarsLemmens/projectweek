@@ -14,9 +14,7 @@ export default {
     HelloWorld
   }
 }
-</script>
 
-<script>
 export default {
   mounted(){
     this.$store.dispatch("getProducts");
