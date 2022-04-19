@@ -5,6 +5,7 @@ COPY shopping-cart/package*.json ./
 RUN npm install
 COPY . .
 RUN ls
+RUN npm run
 RUN npm run build
 
 # production stage
