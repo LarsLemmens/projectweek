@@ -1,8 +1,7 @@
 # build stage
 FROM node:lts-alpine as build-stage
 WORKDIR /app
-#COPY shopping-cart/ ./
-RUN cd shopping-cart
+COPY shopping-cart ./
 RUN npm install
 COPY . .
 RUN ls
