@@ -12,10 +12,7 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
-}
-
-export default {
+  },
   mounted(){
     this.$store.dispatch("getProducts");
   }
