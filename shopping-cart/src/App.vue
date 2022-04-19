@@ -7,11 +7,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Home from './views/Home.vue'
 
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
-    HelloWorld
+    Home
   },
   mounted(){
     this.$store.dispatch("getProducts");
